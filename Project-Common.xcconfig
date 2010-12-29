@@ -34,6 +34,6 @@ GCC_WARN_UNUSED_VALUE = YES
 GCC_WARN_UNUSED_VARIABLE = YES
 
 // warnings without Xcode settings
-WARNING_CFLAGS = -Wall -Wextra -Wno-unused-parameter -Wformat=2 -Wwrite-strings -Wmissing-field-initializers -Wpointer-arith -Wfloat-equal -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition
+WARNING_CFLAGS = -Wall -Wextra -Wno-unused-parameter -Wformat=2 -Wwrite-strings -Wmissing-field-initializers -Wpointer-arith -Wfloat-equal -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -Wno-semicolon-before-method-body
 
 OTHER_CPLUSPLUSFLAGS = -Wctor-dtor-privacy -Wstrict-null-sentinel -Wsign-promo
