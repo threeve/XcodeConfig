@@ -1,0 +1,8 @@
+//
+//  Copyright 2010 Jason Foreman. All rights reserved.
+//
+
+#include "Project-Common.xcconfig"
+
+// This warning is only supported in optimized builds
+GCC_WARN_UNINITIALIZED_AUTOS = YES
